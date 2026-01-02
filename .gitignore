@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+*.log
+
+# Virtualenvs
+venv/
+.venv/
+ENV/
+env/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Large training artifacts / datasets (keep repo lightweight)
+runs/
+Ready/
+dataset/
+
+# Model weights / exports
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+
