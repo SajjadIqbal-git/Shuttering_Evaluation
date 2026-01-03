@@ -35,4 +35,13 @@ python .\predict_and_grade.py --source \"your_video.mp4\" --out .\runs\pose\grad
 
 Outputs go under the `--out` directory (annotated images/video + `report.csv`).
 
+## Streamlit demo (client-ready UI)
+
+```powershell
+.\venv\Scripts\Activate.ps1
+streamlit run .\streamlit_app.py
+```
+
+In the sidebar, set **Model path** to your trained weights (e.g. `runs/pose/train/weights/best.pt`) or upload a `.pt`.
+
 
